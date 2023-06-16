@@ -1,5 +1,5 @@
-import { MongoClient, Db, Collection } from 'mongodb'
 import { config } from 'dotenv'
+import { Collection, Db, MongoClient } from 'mongodb'
 import { User } from '~/models/schemas/User.schema'
 
 config()
